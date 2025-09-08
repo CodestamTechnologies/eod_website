@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
@@ -35,27 +36,29 @@ export function Navbar() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <div className="flex items-center">
-              <div className="relative w-50 h-20">
-                <Image
-                  src="/images/logo.png"
-                  alt="JS Solutions Logo"
-                  fill
-                  className="object-contain"
-                  sizes="128px"
-                />
-              </div>
+              <Link href="/">
+                <div className="relative w-50 h-20">
+                  <Image
+                    src="/images/logo.png"
+                    alt="JS Solutions Logo"
+                    fill
+                    className="object-contain"
+                    sizes="128px"
+                  />
+                </div>
+              </Link>
             </div>
           </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
-              <a
+              <Link
                 href="/"
                 className="text-gray-700 hover:text-red-500 px-3 py-2 text-sm font-bold transition-colors duration-200 hover:bg-gray-50 rounded-md"
               >
                 Home
-              </a>
+              </Link>
               
               {/* About Us Dropdown */}
               <DropdownMenu>
@@ -71,25 +74,25 @@ export function Navbar() {
                 <DropdownMenuContent align="start" className="w-48">
                   {aboutUsItems.map((item) => (
                     <DropdownMenuItem key={item.name} asChild>
-                      <a
+                      <Link
                         href={item.href}
                         className="text-gray-700 hover:text-red-500 font-medium cursor-pointer"
                       >
                         {item.name}
-                      </a>
+                      </Link>
                     </DropdownMenuItem>
                   ))}
                 </DropdownMenuContent>
               </DropdownMenu>
 
               {navigationItems.slice(1).map((item) => (
-                <a
+                <Link
                   key={item.name}
                   href={item.href}
                   className="text-gray-700 hover:text-red-500 px-3 py-2 text-sm font-bold transition-colors duration-200 hover:bg-gray-50 rounded-md"
                 >
                   {item.name}
-                </a>
+                </Link>
               ))}
             </div>
           </div>
@@ -115,13 +118,13 @@ export function Navbar() {
         {isMenuOpen && (
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t border-gray-100">
-              <a
+              <Link
                 href="/"
                 className="text-gray-700 hover:text-red-500 block px-3 py-2 text-base font-bold transition-colors duration-200 hover:bg-gray-50 rounded-md"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Home
-              </a>
+              </Link>
               
               {/* About Us Mobile Dropdown */}
               <DropdownMenu>
@@ -137,27 +140,27 @@ export function Navbar() {
                 <DropdownMenuContent align="start" className="w-48">
                   {aboutUsItems.map((item) => (
                     <DropdownMenuItem key={item.name} asChild>
-                      <a
+                      <Link
                         href={item.href}
                         className="text-gray-700 hover:text-red-500 font-medium cursor-pointer"
                         onClick={() => setIsMenuOpen(false)}
                       >
                         {item.name}
-                      </a>
+                      </Link>
                     </DropdownMenuItem>
                   ))}
                 </DropdownMenuContent>
               </DropdownMenu>
 
               {navigationItems.slice(1).map((item) => (
-                <a
+                <Link
                   key={item.name}
                   href={item.href}
                   className="text-gray-700 hover:text-red-500 block px-3 py-2 text-base font-bold transition-colors duration-200 hover:bg-gray-50 rounded-md"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {item.name}
-                </a>
+                </Link>
               ))}
             </div>
           </div>

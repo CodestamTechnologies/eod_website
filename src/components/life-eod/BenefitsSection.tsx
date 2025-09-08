@@ -95,13 +95,13 @@ export function BenefitsSection() {
           </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             We offer more than just a job – we provide a platform for growth, creativity, and personal fulfillment. 
-            Here's what makes EOD an exceptional place to build your career.
+            Here&apos;s what makes EOD an exceptional place to build your career.
           </p>
         </div>
 
         {/* Benefits Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-20">
-          {benefits.map((benefit, index) => {
+          {benefits.map((benefit) => {
             const Icon = benefit.icon;
             return (
               <div 
@@ -124,7 +124,7 @@ export function BenefitsSection() {
             What Our Team Says
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {testimonials.map((testimonial, index) => (
+            {testimonials.map((testimonial) => (
               <div 
                 key={testimonial.name}
                 className="bg-white p-6 rounded-lg shadow-lg"
@@ -145,7 +145,7 @@ export function BenefitsSection() {
                   </div>
                 </div>
                 <blockquote className="text-gray-700 italic leading-relaxed">
-                  "{testimonial.quote}"
+                  {testimonial.quote}
                 </blockquote>
               </div>
             ))}

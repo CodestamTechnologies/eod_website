@@ -65,7 +65,7 @@ export function TeamActivitiesSection() {
           </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Beyond work, we create opportunities for our team to connect, celebrate, and grow together. 
-            Here's a glimpse into the vibrant activities that make EOD special.
+            Here&apos;s a glimpse into the vibrant activities that make EOD special.
           </p>
         </div>
 
@@ -129,8 +129,8 @@ export function TeamActivitiesSection() {
         {/* Quote Section */}
         <div className="mt-16 text-center">
           <blockquote className="text-xl md:text-2xl italic text-gray-700 max-w-4xl mx-auto">
-            "At EOD, we don't just work together – we celebrate together, grow together, and create memories that last a lifetime. 
-            Every team member is part of our extended family."
+            &quot;At EOD, we don&apos;t just work together – we celebrate together, grow together, and create memories that last a lifetime. 
+            Every team member is part of our extended family.&quot;
           </blockquote>
           <div className="mt-6 text-gray-600 font-medium">- EOD Leadership Team</div>
         </div>

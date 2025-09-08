@@ -45,7 +45,7 @@ export function CompanyInfoSection() {
                 With years of expertise in the industry, we specialize in comprehensive marketing solutions including brand activation, event management, digital marketing, and creative services.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Our team of passionate professionals combines strategic thinking with creative excellence to deliver campaigns that not only meet but exceed our clients' expectations.
+                Our team of passionate professionals combines strategic thinking with creative excellence to deliver campaigns that not only meet but exceed our client&apos;s expectations.
               </p>
              
               

@@ -36,7 +36,7 @@ export function CultureSection() {
             Our Culture
           </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            At Event of Distinction, we've built more than just a workplace – we've created a community where creativity thrives, 
+            At Event of Distinction, we&apos;ve built more than just a workplace – we&apos;ve created a community where creativity thrives, 
             relationships flourish, and every team member is empowered to make their mark.
           </p>
         </div>
@@ -64,7 +64,7 @@ export function CultureSection() {
 
           {/* Right Side - Values Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            {cultureValues.map((value, index) => {
+            {cultureValues.map((value) => {
               const Icon = value.icon;
               return (
                 <div 

@@ -19,7 +19,7 @@ export function HeroSection() {
     }, 4000); // Change image every 4 seconds
 
     return () => clearInterval(interval);
-  }, []);
+  });
 
   return (
     <div className="relative w-full h-screen overflow-hidden">

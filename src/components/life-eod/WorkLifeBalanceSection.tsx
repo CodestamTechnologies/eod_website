@@ -36,7 +36,7 @@ export function WorkLifeBalanceSection() {
             Work-Life Balance
           </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            We believe that happy employees create exceptional work. That's why we've designed our workplace 
+            We believe that happy employees create exceptional work. That&apos;s why we&apos;ve designed our workplace 
             to support both your professional growth and personal well-being.
           </p>
         </div>
@@ -44,7 +44,7 @@ export function WorkLifeBalanceSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Side - Features */}
           <div className="space-y-8">
-            {balanceFeatures.map((feature, index) => {
+            {balanceFeatures.map((feature) => {
               const Icon = feature.icon;
               return (
                 <div 
