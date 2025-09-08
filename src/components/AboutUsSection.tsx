@@ -33,16 +33,15 @@ export function AboutUsSection() {
             
             {/* Main Heading */}
             <h3 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
-              WE ARE A PART OF JAGRAN PRAKASHAN LTD.
+              BRINGING COMMUNITIES TOGETHER THROUGH EVENTS
             </h3>
             
             {/* Description */}
             <p className="text-base text-gray-600 leading-relaxed">
-              We offer end to end experiential marketing solutions using an integrated approach involving: 
-              on-ground, events, digital, P.R., print, radio, mobile, outdoor, consumer generated media, 
-              word of mouth & so on. We offer duplication free, relevant, scalable & sustainable brand 
-              experiences. In short, we are about buzz, experiences, engagement, eye-balls, touch-points, 
-              media-multiplication, conversations & above all IDEAS!
+              Event of Distinction is dedicated to organizing meaningful events that create lasting impact across cities and communities. 
+              We specialize in welfare events, community celebrations, corporate gatherings, and showcases that bring people together. 
+              Our comprehensive approach includes event planning, logistics management, promotion, and documentation to ensure every 
+              event achieves its purpose and creates memorable experiences for all participants.
             </p>
             
             {/* Learn More Button */}

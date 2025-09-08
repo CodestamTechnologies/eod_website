@@ -1,16 +1,16 @@
-import { Megaphone, Calendar, Monitor, Sparkles, Users, BarChart3, Palette, Lightbulb } from "lucide-react";
+import { Calendar, Users, Heart, Building, PartyPopper, Camera, Megaphone, MapPin } from "lucide-react";
 
 const services = [
   // First row - 4 services
-  { id: 1, title: "Brand Activation", icon: Megaphone },
-  { id: 2, title: "Event Management", icon: Calendar },
-  { id: 3, title: "Digital Marketing", icon: Monitor },
-  { id: 4, title: "Experiential Marketing", icon: Sparkles },
+  { id: 1, title: "Corporate Events", icon: Building },
+  { id: 2, title: "Welfare Events", icon: Heart },
+  { id: 3, title: "Community Celebrations", icon: Users },
+  { id: 4, title: "Event Showcases", icon: PartyPopper },
   // Second row - 4 services
-  { id: 5, title: "Public Relations", icon: Users },
-  { id: 6, title: "Media Planning", icon: BarChart3 },
-  { id: 7, title: "Creative Solutions", icon: Palette },
-  { id: 8, title: "Strategic Consulting", icon: Lightbulb },
+  { id: 5, title: "Multi-City Events", icon: MapPin },
+  { id: 6, title: "Event Photography", icon: Camera },
+  { id: 7, title: "Event Promotion", icon: Megaphone },
+  { id: 8, title: "Event Planning", icon: Calendar },
 ];
 
 export function ServicesSection() {

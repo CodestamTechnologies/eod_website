@@ -7,110 +7,110 @@ import { ProjectCard } from "@/components/projects/ProjectCard";
 const projectsData = [
   {
     id: 1,
-    name: "Brand Launch Campaign",
-    description: "A comprehensive brand activation campaign that created buzz and drove significant engagement across multiple touchpoints.",
+    name: "Corporate Annual Conference",
+    description: "Large-scale corporate conference organized across multiple cities with seamless coordination and exceptional attendee experience.",
     image: "/images/Event.jpg"
   },
   {
     id: 2,
-    name: "Corporate Conference 2024",
-    description: "Large-scale corporate event management with seamless execution and exceptional attendee experience.",
+    name: "Community Welfare Drive",
+    description: "Multi-city welfare event that brought communities together for health awareness and social support programs.",
     image: "/images/NPHO3703.JPG"
   },
   {
     id: 3,
-    name: "Retail Marketing Initiative",
-    description: "Strategic retail campaign that increased footfall and sales through innovative in-store experiences.",
+    name: "Cultural Festival Showcase",
+    description: "Vibrant cultural festival celebrating local traditions and bringing diverse communities together in celebration.",
     image: "/images/Retail Marketing.JPG"
   },
   {
     id: 4,
-    name: "Red Bull Activation",
-    description: "High-energy brand activation event that perfectly captured the brand's adventurous spirit and values.",
+    name: "Youth Empowerment Event",
+    description: "High-energy youth empowerment event that inspired and motivated young participants across different cities.",
     image: "/images/RedBull_2.jpg"
   },
   {
     id: 5,
-    name: "Rural Outreach Program",
-    description: "Community-focused marketing campaign that successfully connected with rural audiences through local insights.",
+    name: "Rural Community Outreach",
+    description: "Community-focused welfare program that successfully connected with rural audiences and provided essential services.",
     image: "/images/Rural Marketing.png"
   },
   {
     id: 6,
-    name: "Creative Design Project",
-    description: "Comprehensive brand identity and creative campaign that elevated the client's market presence.",
+    name: "Educational Workshop Series",
+    description: "Comprehensive educational workshop series that enhanced learning opportunities for participants across multiple venues.",
     image: "/images/DSC06316.JPG"
   },
   {
     id: 7,
     name: "Health Awareness Campaign",
-    description: "Impactful public health initiative that drove positive behavioral change in target communities.",
+    description: "Impactful public health awareness event that drove positive behavioral change and community engagement.",
     image: "/images/Public Health_1.jpg"
   },
   {
     id: 8,
-    name: "Digital Marketing Success",
-    description: "Data-driven digital campaign that achieved exceptional ROI and increased online brand visibility.",
+    name: "Digital Innovation Showcase",
+    description: "Technology showcase event that highlighted digital innovations and connected tech enthusiasts across cities.",
     image: "/images/NPHO3744.JPG"
   },
   {
     id: 9,
-    name: "Exhibition Management",
-    description: "Professional trade show management that maximized client exposure and generated quality leads.",
+    name: "Trade Exhibition Management",
+    description: "Professional trade exhibition that maximized exhibitor exposure and generated valuable business connections.",
     image: "/images/IC208155.JPG"
   },
   {
     id: 10,
-    name: "Product Launch Event",
-    description: "Memorable product launch that created media buzz and drove immediate market adoption.",
+    name: "Product Launch Celebration",
+    description: "Memorable product launch event that created excitement and drove immediate community engagement.",
     image: "/images/IMG_6262.JPG"
   },
   {
     id: 11,
-    name: "Corporate Branding",
-    description: "Complete brand transformation project that repositioned the client in their competitive market.",
+    name: "Corporate Team Building",
+    description: "Engaging corporate team building event that strengthened relationships and improved workplace collaboration.",
     image: "/images/0R6_1588.JPG"
   },
   {
     id: 12,
-    name: "Event Photography",
-    description: "Professional event documentation that captured key moments and created lasting brand memories.",
+    name: "Event Documentation",
+    description: "Professional event photography and documentation services that captured key moments and preserved memories.",
     image: "/images/NPHO3700.JPG"
   },
   {
     id: 13,
-    name: "Office Space Design",
-    description: "Modern office environment design that reflects brand values and enhances employee experience.",
+    name: "Venue Setup & Design",
+    description: "Creative venue setup and design that transformed spaces into memorable event environments.",
     image: "/images/Office_JS.jpg"
   },
   {
     id: 14,
-    name: "Reception Area Branding",
-    description: "Welcoming reception space design that creates positive first impressions for visitors and clients.",
+    name: "Welcome Reception Event",
+    description: "Welcoming reception event that created positive first impressions and fostered networking opportunities.",
     image: "/images/reception_JS.jpg"
   },
   {
     id: 15,
-    name: "Cultural Event Management",
-    description: "Traditional cultural event that celebrated heritage while incorporating modern event management practices.",
+    name: "Traditional Cultural Event",
+    description: "Traditional cultural celebration that honored heritage while bringing communities together in celebration.",
     image: "/images/ramayan1.PNG"
   },
   {
     id: 16,
-    name: "Food & Beverage Campaign",
-    description: "Appetizing marketing campaign that increased brand awareness and drove sales in competitive F&B market.",
+    name: "Food Festival Organization",
+    description: "Delicious food festival that celebrated culinary diversity and brought food enthusiasts together.",
     image: "/images/Fuji2.jpg"
   },
   {
     id: 17,
-    name: "Healthcare Initiative",
-    description: "Comprehensive healthcare awareness program that reached diverse audiences with targeted messaging.",
+    name: "Healthcare Awareness Drive",
+    description: "Comprehensive healthcare awareness event that reached diverse audiences with important health messaging.",
     image: "/images/Public Health_2.jpg"
   },
   {
     id: 18,
-    name: "Corporate Photography",
-    description: "Professional corporate photography session that enhanced brand image and marketing materials.",
+    name: "Professional Event Coverage",
+    description: "Professional event coverage and documentation that enhanced event impact and created lasting memories.",
     image: "/images/352.jpg"
   }
 ];
@@ -130,8 +130,8 @@ export default function ProjectsPage() {
               Latest Work
             </h2>
             <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mb-16 leading-relaxed">
-              Discover our portfolio of successful campaigns and events that have delivered exceptional results for our clients. 
-              Each project represents our commitment to creativity, innovation, and measurable impact.
+              Discover our portfolio of successful events that have brought communities together and created lasting impact. 
+              Each project represents our commitment to organizing meaningful experiences across cities and communities.
             </p>
             
             {/* Projects Grid */}

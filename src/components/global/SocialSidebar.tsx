@@ -6,35 +6,35 @@ const socialLinks = [
   {
     name: "Instagram",
     icon: Instagram,
-    url: "https://instagram.com/jssolutions",
+    url: "https://instagram.com/eventofdistinction",
     color: "hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500",
     hoverColor: "group-hover:text-white"
   },
   {
     name: "LinkedIn",
     icon: Linkedin,
-    url: "https://linkedin.com/company/jssolutions",
+    url: "https://linkedin.com/company/eventofdistinction",
     color: "hover:bg-blue-600",
     hoverColor: "group-hover:text-white"
   },
   {
     name: "Twitter",
     icon: Twitter,
-    url: "https://twitter.com/jssolutions",
+    url: "https://twitter.com/eventofdistinction",
     color: "hover:bg-black",
     hoverColor: "group-hover:text-white"
   },
   {
     name: "YouTube",
     icon: Youtube,
-    url: "https://youtube.com/@jssolutions",
+    url: "https://youtube.com/@eventofdistinction",
     color: "hover:bg-red-600",
     hoverColor: "group-hover:text-white"
   },
   {
     name: "Facebook",
     icon: Facebook,
-    url: "https://facebook.com/jssolutions",
+    url: "https://facebook.com/eventofdistinction",
     color: "hover:bg-blue-500",
     hoverColor: "group-hover:text-white"
   }

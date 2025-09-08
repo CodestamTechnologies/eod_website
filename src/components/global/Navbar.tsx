@@ -16,7 +16,7 @@ const navigationItems = [
   { name: "Services", href: "/services" },
   { name: "Projects", href: "/projects" },
   { name: "Clients", href: "/clients" },
-  { name: "Life@JS", href: "#life" },
+  { name: "Life@EOD", href: "/life-eod" },
   { name: "Contact", href: "/contact" },
 ];
 
