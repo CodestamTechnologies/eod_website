@@ -58,7 +58,7 @@ export function ServicesHeroSection() {
               SERVICES
             </h1>
             <p className="text-lg md:text-xl lg:text-2xl font-medium leading-relaxed max-w-lg drop-shadow-md">
-              Professional event organization services across cities and communities. From corporate events to welfare programs, we create memorable experiences that bring people together.
+              India&apos;s youngest brand activation agency offering end-to-end experiential marketing solutions. We create memorable brand experiences that drive engagement and deliver measurable results.
             </p>
           </div>
 
@@ -66,7 +66,7 @@ export function ServicesHeroSection() {
           <div className="flex justify-center lg:justify-end relative z-20">
             <div className="relative w-full max-w-md lg:max-w-lg h-96 lg:h-[500px]">
               <Image
-                src="/images/SERVICES PAGE.png"
+                src="/EOD/main5.jpeg"
                 alt="Services Hero Image"
                 fill
                 className="object-cover rounded-lg shadow-2xl"

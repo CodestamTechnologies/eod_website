@@ -36,8 +36,7 @@ export function CultureSection() {
             Our Culture
           </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            At Event of Distinction, we&apos;ve built more than just a workplace – we&apos;ve created a community where creativity thrives, 
-            relationships flourish, and every team member is empowered to make their mark.
+             At Events of Distinction, we&apos;ve built more than just a workplace – we&apos;ve created India&apos;s most dynamic brand activation hub where young talent thrives, breakthrough ideas flourish, and every team member contributes to award-winning campaigns that set industry standards.
           </p>
         </div>
 

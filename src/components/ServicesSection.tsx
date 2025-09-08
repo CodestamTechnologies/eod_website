@@ -1,16 +1,14 @@
-import { Calendar, Users, Heart, Building, PartyPopper, Camera, Megaphone, MapPin } from "lucide-react";
+import { Zap, MapPin, Globe, ShoppingBag, Calendar, Palette } from "lucide-react";
 
 const services = [
-  // First row - 4 services
-  { id: 1, title: "Corporate Events", icon: Building },
-  { id: 2, title: "Welfare Events", icon: Heart },
-  { id: 3, title: "Community Celebrations", icon: Users },
-  { id: 4, title: "Event Showcases", icon: PartyPopper },
-  // Second row - 4 services
-  { id: 5, title: "Multi-City Events", icon: MapPin },
-  { id: 6, title: "Event Photography", icon: Camera },
-  { id: 7, title: "Event Promotion", icon: Megaphone },
-  { id: 8, title: "Event Planning", icon: Calendar },
+  // First row - 3 services
+  { id: 1, title: "Brand Activation", icon: Zap },
+  { id: 2, title: "Rural Marketing", icon: MapPin },
+  { id: 3, title: "Online/Offline Campaigning", icon: Globe },
+  // Second row - 3 services
+  { id: 4, title: "Shop/Retail Marketing", icon: ShoppingBag },
+  { id: 5, title: "Events / Conferences / Exhibitions", icon: Calendar },
+  { id: 6, title: "Branding", icon: Palette },
 ];
 
 export function ServicesSection() {
@@ -29,10 +27,10 @@ export function ServicesSection() {
 
         {/* Services Grid - 2 Rows of Attached Rectangles */}
         <div className="space-y-4">
-          {/* First Row - 4 Services */}
+          {/* First Row - 3 Services */}
           <div className="w-full">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 w-full">
-              {services.slice(0, 4).map((service, index) => {
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 w-full">
+              {services.slice(0, 3).map((service, index) => {
                 const Icon = service.icon;
                 return (
                   <div
@@ -40,10 +38,9 @@ export function ServicesSection() {
                     className={`
                       bg-white border-2 border-red-200 h-48 w-full flex flex-col items-center justify-center text-center p-4 xl:p-6 transition-all duration-300 hover:border-red-400 group cursor-pointer
                       ${index === 0 ? 'rounded-l-2xl' : ''}
-                      ${index === 3 ? 'rounded-r-2xl' : ''}
+                      ${index === 2 ? 'rounded-r-2xl' : ''}
                       ${index > 0 ? 'border-l-0 sm:border-l-2 md:border-l-0' : ''}
                       ${index === 1 ? 'sm:rounded-r-2xl md:rounded-r-none' : ''}
-                      ${index === 2 ? 'sm:rounded-l-2xl md:rounded-l-none' : ''}
                     `}
                     style={{
                       boxShadow: '0 0 30px rgba(239, 68, 68, 0.4), 0 0 60px rgba(239, 68, 68, 0.2), 0 0 90px rgba(239, 68, 68, 0.1)',
@@ -64,10 +61,10 @@ export function ServicesSection() {
             </div>
           </div>
 
-          {/* Second Row - 4 Services */}
+          {/* Second Row - 3 Services */}
           <div className="w-full">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 w-full">
-              {services.slice(4, 8).map((service, index) => {
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 w-full">
+              {services.slice(3, 6).map((service, index) => {
                 const Icon = service.icon;
                 return (
                   <div
@@ -75,10 +72,9 @@ export function ServicesSection() {
                     className={`
                       bg-white border-2 border-red-200 h-48 w-full flex flex-col items-center justify-center text-center p-4 xl:p-6 transition-all duration-300 hover:border-red-400 group cursor-pointer
                       ${index === 0 ? 'rounded-l-2xl' : ''}
-                      ${index === 3 ? 'rounded-r-2xl' : ''}
+                      ${index === 2 ? 'rounded-r-2xl' : ''}
                       ${index > 0 ? 'border-l-0 sm:border-l-2 md:border-l-0' : ''}
                       ${index === 1 ? 'sm:rounded-r-2xl md:rounded-r-none' : ''}
-                      ${index === 2 ? 'sm:rounded-l-2xl md:rounded-l-none' : ''}
                     `}
                     style={{
                       boxShadow: '0 0 30px rgba(239, 68, 68, 0.4), 0 0 60px rgba(239, 68, 68, 0.2), 0 0 90px rgba(239, 68, 68, 0.1)',

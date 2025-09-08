@@ -1,41 +1,35 @@
-import { Users, Award, Target, Zap, Trophy, Heart } from "lucide-react";
+import { Award, Target, Zap, Trophy, MapPin } from "lucide-react";
 
 const stats = [
   {
     id: 1,
-    icon: Users,
-    number: "100+",
-    label: "Employees"
+    icon: Award,
+    number: "500+",
+    label: "PROJECTS"
   },
   {
     id: 2,
-    icon: Award,
-    number: "500+",
-    label: "Projects"
+    icon: Target,
+    number: "15+",
+    label: "CLIENTS"
   },
   {
     id: 3,
-    icon: Target,
-    number: "50+",
-    label: "Clients"
+    icon: Zap,
+    number: "8+",
+    label: "YEARS OF EXPERIENCE"
   },
   {
     id: 4,
-    icon: Zap,
-    number: "5+",
-    label: "Years"
+    icon: MapPin,
+    number: "5",
+    label: "OFFICES"
   },
   {
     id: 5,
     icon: Trophy,
-    number: "25+",
-    label: "Awards"
-  },
-  {
-    id: 6,
-    icon: Heart,
-    number: "98%",
-    label: "Satisfaction"
+    number: "20+",
+    label: "AWARDS"
   }
 ];
 
@@ -46,13 +40,16 @@ export function WhyPeopleLikeUsSection() {
         {/* Section Header */}
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900">
-            Why People Like Us
+            WHY PEOPLE TRUST US
           </h2>
+          <p className="text-lg text-gray-600 mt-4">
+            AVAILABLE PAN INDIA
+          </p>
         </div>
 
-        {/* Stats Grid - 6 attached rectangles */}
+        {/* Stats Grid - 5 attached rectangles */}
         <div className="w-full">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 w-full">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 w-full">
             {stats.map((stat, index) => {
               const Icon = stat.icon;
               return (
@@ -63,8 +60,8 @@ export function WhyPeopleLikeUsSection() {
                     ${index === 0 ? 'rounded-l-2xl' : ''}
                     ${index === stats.length - 1 ? 'rounded-r-2xl' : ''}
                     ${index > 0 ? 'border-l-0 sm:border-l-2 lg:border-l-0' : ''}
-                    ${index === 2 ? 'sm:rounded-r-2xl md:rounded-r-none' : ''}
-                    ${index === 3 ? 'sm:rounded-l-2xl md:rounded-l-none' : ''}
+                    ${index === 2 ? 'sm:rounded-r-2xl md:rounded-r-none lg:rounded-r-none' : ''}
+                    ${index === 3 ? 'sm:rounded-l-2xl md:rounded-l-none lg:rounded-l-none' : ''}
                   `}
                   style={{
                     boxShadow: '0 0 30px rgba(239, 68, 68, 0.4), 0 0 60px rgba(239, 68, 68, 0.2), 0 0 90px rgba(239, 68, 68, 0.1)',

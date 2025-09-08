@@ -26,13 +26,11 @@ const cities = [
 
 const services = [
   "Brand Activation",
-  "Events & Conferences",
-  "Shopper & Retail Marketing",
-  "Integrated Media Campaigns",
   "Rural Marketing",
-  "Creative Services",
-  "Public Health Programs",
-  "Digital Marketing"
+  "Online/Offline Campaigning",
+  "Shop/Retail Marketing",
+  "Events / Conferences / Exhibitions",
+  "Branding"
 ];
 
 export function ContactInfoSection() {
@@ -90,7 +88,7 @@ export function ContactInfoSection() {
           {/* Right Side - Office Image */}
           <div className="relative w-full h-80 lg:h-96">
             <Image
-              src="/images/Office_JS.jpg"
+              src="/EOD/main2.jpeg"
               alt="Office Image"
               fill
               className="object-cover rounded-lg shadow-lg"
@@ -109,11 +107,11 @@ export function ContactInfoSection() {
               href="mailto:info@jagransolutions.com"
               className="text-lg hover:text-red-100 transition-colors duration-300"
             >
-              info@jagransolutions.com
+              info@eventofdistinction.com
             </a>
             <span className="text-lg">•</span>
             <span className="text-sm text-red-100">
-              JS Solutions Pvt. Ltd. | 123 Business District, Corporate Tower | New Delhi - 110001, India
+              Events of Distinction | India&apos;s Youngest Brand Activation Agency | Available Pan India
             </span>
           </div>
         </div>

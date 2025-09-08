@@ -61,7 +61,7 @@ export function ProjectsHeroSection() {
               PROJECTS
             </h1>
             <p className="text-lg md:text-xl lg:text-2xl font-medium leading-relaxed max-w-lg drop-shadow-md">
-              Explore our portfolio of successful campaigns, events, and creative solutions that have delivered exceptional results for our clients across various industries.
+              Explore our portfolio of award-winning brand activations and innovative campaigns that have created memorable experiences and delivered measurable results for brands across India.
             </p>
           </div>
 
@@ -69,7 +69,7 @@ export function ProjectsHeroSection() {
           <div className="flex justify-center lg:justify-end relative z-20">
             <div className="relative w-full max-w-md lg:max-w-lg h-96 lg:h-[500px]">
               <Image
-                src="/images/NPHO3706.JPG"
+                src="/EOD/main2.jpeg"
                 alt="Projects Hero Image"
                 fill
                 className="object-cover rounded-lg shadow-2xl"

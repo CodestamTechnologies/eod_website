@@ -37,7 +37,7 @@ export function ContactSection() {
                   href="mailto:info@jagransolutions.com" 
                   className="text-xl text-gray-900 hover:text-red-500 transition-colors duration-300"
                 >
-                  info@jagransolutions.com
+                  info@eventofdistinction.com
                 </a>
               </div>
             </div>

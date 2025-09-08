@@ -130,8 +130,7 @@ export default function ProjectsPage() {
               Latest Work
             </h2>
             <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mb-16 leading-relaxed">
-              Discover our portfolio of successful events that have brought communities together and created lasting impact. 
-              Each project represents our commitment to organizing meaningful experiences across cities and communities.
+              Discover our portfolio of award-winning brand activations and memorable campaigns. Each project represents our commitment to creating innovative brand experiences that drive engagement and deliver measurable results across India.
             </p>
             
             {/* Projects Grid */}

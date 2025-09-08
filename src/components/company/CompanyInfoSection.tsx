@@ -39,16 +39,14 @@ export function CompanyInfoSection() {
             {/* Description */}
             <div className="space-y-4">
               <p className="text-lg text-gray-700 leading-relaxed">
-                JS Solutions is a leading marketing and communications company dedicated to creating impactful brand experiences that drive business growth and connect with audiences meaningfully.
+                Events of Distinction is India&apos;s youngest brand activation agency, leading the industry with innovative brand experiences and award-winning campaigns. We specialize in creating memorable brand activations that drive engagement and deliver measurable results.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                With years of expertise in the industry, we specialize in comprehensive marketing solutions including brand activation, event management, digital marketing, and creative services.
+                We offer end to end experiential marketing solutions using an integrated approach involving: on-ground, events, digital, P.R., print, mobile, outdoor, consumer generated media, word of mouth & so on.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Our team of passionate professionals combines strategic thinking with creative excellence to deliver campaigns that not only meet but exceed our client&apos;s expectations.
+                We offer duplication free, relevant, scalable & sustainable brand experiences. In short, we are about buzz, experiences, engagement, eye-balls, touch-points, media-multiplication, conversations & above all IDEAS!
               </p>
-             
-              
             </div>
           </div>
         </div>

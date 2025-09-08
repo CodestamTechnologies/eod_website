@@ -24,13 +24,13 @@ export function WorkTogetherSection() {
               <span 
                 style={{ WebkitTextStroke: '2px white', color: 'transparent' }}
               >
-                drive
+                create
               </span>{" "}
-              impactful{" "}
+              memorable{" "}
               <span 
                 style={{ WebkitTextStroke: '2px white', color: 'transparent' }}
               >
-                solutions
+                brand experiences
               </span>
             </p>
           </div>

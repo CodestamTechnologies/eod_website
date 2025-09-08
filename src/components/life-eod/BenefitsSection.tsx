@@ -156,8 +156,7 @@ export function BenefitsSection() {
         <div className="text-center bg-gradient-to-r from-red-600 to-red-700 rounded-lg p-12 text-white">
           <h3 className="text-3xl md:text-4xl font-bold mb-4">Ready to Start Your Journey?</h3>
           <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto">
-            Join a team that values your growth, celebrates your achievements, and supports your dreams. 
-            Your next career milestone awaits at Event of Distinction.
+            Join India&apos;s youngest brand activation agency where innovation meets opportunity. Be part of a dynamic team that creates award-winning campaigns and memorable brand experiences that shape the future of marketing.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="bg-white text-red-600 px-8 py-3 rounded-full font-bold text-lg hover:bg-gray-100 transition-colors duration-300 shadow-lg">

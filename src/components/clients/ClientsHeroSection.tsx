@@ -58,7 +58,7 @@ export function ClientsHeroSection() {
               OUR CLIENTS
             </h1>
             <p className="text-lg md:text-xl lg:text-2xl font-medium leading-relaxed max-w-lg drop-shadow-md">
-              Discover the leading brands and organizations that trust us to deliver exceptional marketing solutions and drive their business success.
+              Discover the leading brands that trust India&apos;s youngest brand activation agency to create memorable experiences and deliver award-winning campaigns that drive engagement and business success.
             </p>
           </div>
 
@@ -66,7 +66,7 @@ export function ClientsHeroSection() {
           <div className="flex justify-center lg:justify-end relative z-20">
             <div className="relative w-full max-w-md lg:max-w-lg h-96 lg:h-[500px]">
               <Image
-                src="/images/reception_JS.jpg"
+                src="/EOD/main3.jpeg"
                 alt="Clients Hero Image"
                 fill
                 className="object-cover rounded-lg shadow-2xl"

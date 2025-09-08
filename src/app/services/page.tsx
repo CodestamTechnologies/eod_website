@@ -7,58 +7,44 @@ import { ServiceBlock } from "@/components/services/ServiceBlock";
 const servicesData = [
   {
     id: 1,
-    title: "Corporate Events",
-    description: "Professional corporate event organization services that create impactful business experiences. We handle everything from corporate conferences and seminars to product launches and company celebrations. Our team manages venue selection, logistics coordination, audio-visual setup, catering arrangements, and guest management to ensure your corporate events run seamlessly and achieve their objectives while reflecting your company's professional image.",
+    title: "Brand Activation",
+    description: "We specialize in creating unforgettable brand experiences that bring your vision to life. Our brand activations go beyond traditional marketing, focusing on building genuine connections with your target audience. From innovative product launches and interactive campaigns to engaging live experiences, we ensure your brand leaves a lasting impact. With creative strategies and flawless execution, we transform consumer interactions into brand loyalty.",
     image: "/images/Event.jpg",
     imagePosition: "left"
   },
   {
     id: 2,
-    title: "Welfare Events",
-    description: "Meaningful welfare events that make a positive impact on communities and society. We organize charity fundraisers, community welfare programs, health camps, educational initiatives, and social awareness campaigns. Our approach focuses on creating events that not only raise awareness but also drive meaningful action and support for important causes, bringing communities together for the greater good.",
-    image: "/images/NPHO3703.JPG",
+    title: "Rural Marketing",
+    description: "India's heart lies in its villages, and we understand how vital it is to connect with rural markets. Our rural marketing strategies are designed to bridge the gap between brands and rural audiences through innovative roadshows, community engagement programs, and local touchpoints. By leveraging cultural insights and grassroots-level activities, we make your brand relevant, relatable, and accessible to rural consumers—building strong, long-term brand recall in untapped markets.",
+    image: "/images/Rural Marketing.png",
     imagePosition: "right"
   },
   {
     id: 3,
-    title: "Community Celebrations",
-    description: "Vibrant community celebrations that bring people together and strengthen social bonds. We organize festivals, cultural events, neighborhood gatherings, and community milestones celebrations. Our team understands the importance of local traditions and customs, ensuring every community event respects cultural values while creating memorable experiences that foster unity and celebration among community members.",
+    title: "Online/Offline Campaigning",
+    description: "In today's hybrid world, campaigns need to be impactful both online and offline. We design integrated campaigns that deliver maximum visibility across digital platforms and on-ground activities. Whether it's social media promotions, influencer collaborations, roadshows, or mall activations, our campaigns are data-driven, creative, and result-oriented. Our expertise ensures your brand message is consistent, compelling, and reaches the right audience wherever they are.",
     image: "/images/Retail Marketing.JPG",
     imagePosition: "left"
   },
   {
     id: 4,
-    title: "Event Showcases",
-    description: "Dynamic event showcases that highlight talents, products, or achievements in spectacular fashion. We create exhibitions, talent shows, product demonstrations, and achievement ceremonies that captivate audiences and create lasting impressions. Our showcase events are designed to provide platforms for recognition, networking, and celebration while ensuring maximum engagement and memorable experiences for all participants.",
+    title: "Shop/Retail Marketing",
+    description: "Your retail presence is more than just a point of sale—it's your brand's frontline. We help you create immersive in-store experiences that attract, engage, and convert customers. From designing captivating retail displays and in-shop branding to promotional events and shopper engagement activities, our retail marketing solutions enhance customer experience and maximize sales. Our goal is to make your retail outlets not just a store, but a brand destination.",
     image: "/images/RedBull_2.jpg",
     imagePosition: "right"
   },
   {
     id: 5,
-    title: "Multi-City Events",
-    description: "Seamless multi-city event coordination that extends your reach across different locations. We manage the complexities of organizing events in multiple cities simultaneously, ensuring consistent quality and experience across all venues. Our expertise includes logistics coordination, local vendor management, travel arrangements, and maintaining brand consistency while adapting to local preferences and requirements in each city.",
-    image: "/images/Rural Marketing.png",
+    title: "Events / Conferences / Exhibitions",
+    description: "With nearly a decade of expertise, we excel in planning and executing high-impact corporate events, conferences, and exhibitions. Our team manages every detail—from concept development and venue selection to technical production and audience engagement. Whether it's a large-scale trade show, a leadership summit, or an intimate corporate gathering, we deliver experiences that inspire, connect, and leave a mark. We ensure your event reflects your brand's identity while achieving your business objectives seamlessly.",
+    image: "/images/NPHO3703.JPG",
     imagePosition: "left"
   },
   {
     id: 6,
-    title: "Event Photography & Documentation",
-    description: "Professional event photography and documentation services that capture every important moment. Our skilled photographers and videographers ensure your events are beautifully documented for future reference, marketing purposes, and memory preservation. We provide comprehensive coverage including candid moments, formal presentations, group photos, and highlight reels that tell the complete story of your event.",
+    title: "Branding",
+    description: "Branding is more than just a logo—it's the story, the experience, and the impression you create. We help brands build a strong identity through creative branding solutions that resonate with their audience. Our services include logo design, visual identity development, collateral design, and brand communication strategies. With a balance of creativity and strategy, we ensure your brand stands out in the competitive market and communicates its values effectively.",
     image: "/images/DSC06316.JPG",
-    imagePosition: "right"
-  },
-  {
-    id: 7,
-    title: "Event Promotion & Marketing",
-    description: "Strategic event promotion and marketing services that ensure maximum attendance and engagement. We create comprehensive marketing campaigns using digital platforms, traditional media, and community outreach to build awareness and excitement for your events. Our promotional strategies include social media campaigns, press releases, influencer partnerships, and targeted advertising to reach your desired audience effectively.",
-    image: "/images/Public Health_1.jpg",
-    imagePosition: "left"
-  },
-  {
-    id: 8,
-    title: "Complete Event Planning",
-    description: "End-to-end event planning services that handle every detail from conception to completion. Our comprehensive planning includes concept development, budget management, vendor coordination, timeline creation, risk management, and on-site execution. We work closely with clients to understand their vision and objectives, then bring those ideas to life through meticulous planning and flawless execution that exceeds expectations.",
-    image: "/images/NPHO3744.JPG",
     imagePosition: "right"
   }
 ];

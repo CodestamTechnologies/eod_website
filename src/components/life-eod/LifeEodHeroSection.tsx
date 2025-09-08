@@ -59,7 +59,7 @@ export function LifeEodHeroSection() {
               LIFE @EOD
             </h1>
             <p className="text-lg md:text-xl lg:text-2xl font-medium leading-relaxed max-w-lg drop-shadow-md">
-              Discover what makes Event of Distinction a great place to work. Join our passionate team dedicated to creating meaningful events that bring communities together and make a positive impact across cities.
+               Join India&apos;s youngest brand activation agency and be part of creating award-winning campaigns and innovative brand experiences. Discover a workplace where creativity meets strategy, and every day brings new opportunities to make brands memorable.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <button className="bg-white text-red-600 px-8 py-3 rounded-full font-bold text-lg hover:bg-gray-100 transition-colors duration-300 shadow-lg">

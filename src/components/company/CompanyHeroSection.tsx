@@ -58,7 +58,7 @@ export function CompanyHeroSection() {
               OUR COMPANY
             </h1>
             <p className="text-lg md:text-xl lg:text-2xl font-medium leading-relaxed max-w-lg drop-shadow-md">
-              Discover our journey, values, and commitment to delivering exceptional marketing solutions that drive business growth and create lasting impact.
+              India&apos;s youngest brand activation agency leading the industry with innovative brand experiences and award-winning campaigns. We are Events of Distinction.
             </p>
           </div>
 

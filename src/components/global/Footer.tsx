@@ -2,20 +2,19 @@ import { Mail, Instagram, Facebook, Twitter, Linkedin, Youtube } from "lucide-re
 import Image from "next/image";
 
 const footerData = {
-  jsSolutions: [
+  eventsOfDistinction: [
     "About Us",
     "Projects", 
     "Clients",
-    "Life@JS"
+    "Life@EOD"
   ],
   services: [
     "Brand Activation",
-    "Events, Conferences & Exhibitions",
-    "Shopper & Retail Marketing", 
-    "Integrated Media Campaigns",
     "Rural Marketing",
-    "Creative Services",
-    "Public Health Programs"
+    "Online/Offline Campaigning", 
+    "Shop/Retail Marketing",
+    "Events / Conferences / Exhibitions",
+    "Branding"
   ],
   socialMedia: [
     { name: "Instagram", icon: Instagram, href: "#" },
@@ -36,7 +35,7 @@ export function Footer() {
             <div className="relative w-60 h-32 bg-white rounded-xl p-4">
               <Image
                 src="/images/logo.png"
-                alt="JS Solutions Logo"
+                alt="Events of Distinction Logo"
                 fill
                 className="object-contain"
                 sizes="240px"
@@ -54,20 +53,20 @@ export function Footer() {
             {/* Header Text */}
             <div className="text-center lg:text-left mb-8">
               <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">
-                Modern Solutions For Brands
+                India&apos;s Youngest Brand Activation Agency
               </h3>
               <div className="w-full h-px bg-white opacity-30"></div>
             </div>
 
             {/* Footer Links Grid */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-              {/* JS Solutions */}
+              {/* Events of Distinction */}
               <div>
                 <h4 className="text-lg font-semibold text-white mb-4">
-                  JS Solutions
+                  Events of Distinction
                 </h4>
                 <ul className="space-y-3">
-                  {footerData.jsSolutions.map((item, index) => (
+                  {footerData.eventsOfDistinction.map((item, index) => (
                     <li key={index}>
                       <a 
                         href="#" 
@@ -144,7 +143,7 @@ export function Footer() {
         {/* Bottom Border */}
         <div className="mt-12 pt-8 border-t border-white border-opacity-30">
           <div className="text-center text-white text-sm font-medium">
-            <p>&copy; 2024 JS Solutions. All rights reserved.</p>
+            <p>&copy; 2024 Events of Distinction. All rights reserved.</p>
           </div>
         </div>
       </div>

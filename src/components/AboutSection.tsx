@@ -16,14 +16,13 @@ export function AboutSection() {
             
             {/* Main Heading */}
             <h3 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
-              PREMIER EVENT ORGANIZATION COMPANY
+              INDIA&apos;S YOUNGEST BRAND ACTIVATION AGENCY
             </h3>
             
             {/* Description */}
             <p className="text-lg text-gray-600 leading-relaxed">
-              Event of Distinction is your trusted partner for organizing exceptional events across cities and communities. 
-              We specialize in welfare events, showcases, corporate gatherings, community celebrations, and memorable 
-              experiences that bring people together and create lasting impact.
+              Leading the industry with innovative brand experiences and award-winning campaigns. We specialize in creating 
+              memorable brand activations that drive engagement and deliver measurable results.
             </p>
             
             {/* Learn More Button */}

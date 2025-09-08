@@ -58,7 +58,7 @@ export function ContactHeroSection() {
               CONTACT US
             </h1>
             <p className="text-lg md:text-xl lg:text-2xl font-medium leading-relaxed drop-shadow-md">
-              Ready to start your next project? Get in touch with our team and let&apos;s discuss how we can help bring your vision to life with our comprehensive marketing solutions.
+              Ready to create memorable brand experiences? Get in touch with India&apos;s youngest brand activation agency and let&apos;s discuss how we can bring your brand vision to life with innovative activations and award-winning campaigns.
             </p>
           </div>
         </div>
