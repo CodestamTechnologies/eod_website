@@ -6,7 +6,7 @@ export function HeroSection() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   
   const heroImages = [
-    "/EOD/main5.jpeg",
+    "/EOD/ADI00600.JPG",
     "/EOD/main.jpeg", 
     "/EOD/main2.jpeg"
   ];

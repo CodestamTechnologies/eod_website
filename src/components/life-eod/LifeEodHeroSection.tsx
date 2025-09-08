@@ -75,7 +75,7 @@ export function LifeEodHeroSection() {
           <div className="flex justify-center lg:justify-end relative z-20">
             <div className="relative w-full max-w-md lg:max-w-lg h-96 lg:h-[500px]">
               <Image
-                src="/images/NPHO3703.JPG"
+                src="/EOD/ADI00751.JPG"
                 alt="Life at EOD - Team working together"
                 fill
                 className="object-cover rounded-lg shadow-2xl"

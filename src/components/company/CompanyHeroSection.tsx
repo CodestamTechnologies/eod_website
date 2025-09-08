@@ -66,7 +66,7 @@ export function CompanyHeroSection() {
           <div className="flex justify-center lg:justify-end relative z-20">
             <div className="relative w-full max-w-md lg:max-w-lg h-80 lg:h-[400px]">
               <Image
-                src="/EOD/main.jpeg"
+                src="/EOD/ADI00820.JPG"
                 alt="Company Hero Image"
                 fill
                 className="object-cover rounded-lg shadow-2xl"

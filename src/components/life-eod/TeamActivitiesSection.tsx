@@ -6,51 +6,19 @@ import { Calendar, Camera, PartyPopper, Trophy } from "lucide-react";
 const activities = [
   {
     id: 1,
-    title: "Team Building Events",
-    description: "Regular team building activities that strengthen bonds and create lasting memories.",
-    image: "/images/Event.jpg",
+    title: "5. Events / Conferences / Exhibitions",
+    description: "With nearly a decade of expertise, we excel in planning and executing high-impact corporate events, conferences, and exhibitions. Our team manages every detail—from concept development and venue selection to technical production and audience engagement.",
+    image: "/EOD/ADI00751.JPG",
     icon: PartyPopper,
     category: "Events"
   },
   {
     id: 2,
-    title: "Professional Photography",
-    description: "Capturing moments and milestones with professional photography sessions.",
-    image: "/images/IC208155.JPG",
+    title: "6. Branding",
+    description: "Branding is more than just a logo—it's the story, the experience, and the impression you create. We help brands build a strong identity through creative branding solutions that resonate with their audience.",
+    image: "/EOD/ADI00815.JPG",
     icon: Camera,
-    category: "Memories"
-  },
-  {
-    id: 3,
-    title: "Achievement Celebrations",
-    description: "Recognizing and celebrating individual and team achievements throughout the year.",
-    image: "/images/0R6_1588.JPG",
-    icon: Trophy,
-    category: "Recognition"
-  },
-  {
-    id: 4,
-    title: "Cultural Programs",
-    description: "Celebrating diversity through cultural events and traditional celebrations.",
-    image: "/images/ramayan1.PNG",
-    icon: Calendar,
-    category: "Culture"
-  },
-  {
-    id: 5,
-    title: "Project Celebrations",
-    description: "Celebrating successful project completions and client achievements.",
-    image: "/images/IMG_6262.JPG",
-    icon: PartyPopper,
-    category: "Success"
-  },
-  {
-    id: 6,
-    title: "Learning Sessions",
-    description: "Knowledge sharing sessions and workshops for continuous learning and growth.",
-    image: "/images/Public Health_2.jpg",
-    icon: Calendar,
-    category: "Learning"
+    category: "Branding"
   }
 ];
 
@@ -61,11 +29,10 @@ export function TeamActivitiesSection() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
-            Team Activities
+            MORE SERVICES
           </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Beyond work, we create opportunities for our team to connect, celebrate, and grow together. 
-            Here&apos;s a glimpse into the vibrant activities that make EOD special.
+            Our comprehensive service portfolio covers every aspect of experiential marketing to ensure your brand creates lasting impressions and achieves measurable success.
           </p>
         </div>
 
@@ -108,20 +75,20 @@ export function TeamActivitiesSection() {
         <div className="bg-white rounded-lg shadow-xl p-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-3xl md:text-4xl font-bold text-red-600 mb-2">50+</div>
-              <div className="text-gray-600 font-medium">Team Events</div>
+              <div className="text-3xl md:text-4xl font-bold text-red-600 mb-2">500+</div>
+              <div className="text-gray-600 font-medium">PROJECTS</div>
             </div>
             <div>
-              <div className="text-3xl md:text-4xl font-bold text-red-600 mb-2">100%</div>
-              <div className="text-gray-600 font-medium">Participation</div>
+              <div className="text-3xl md:text-4xl font-bold text-red-600 mb-2">15+</div>
+              <div className="text-gray-600 font-medium">CLIENTS</div>
             </div>
             <div>
-              <div className="text-3xl md:text-4xl font-bold text-red-600 mb-2">12</div>
-              <div className="text-gray-600 font-medium">Celebrations/Year</div>
+              <div className="text-3xl md:text-4xl font-bold text-red-600 mb-2">8+</div>
+              <div className="text-gray-600 font-medium">YEARS OF EXPERIENCE</div>
             </div>
             <div>
-              <div className="text-3xl md:text-4xl font-bold text-red-600 mb-2">∞</div>
-              <div className="text-gray-600 font-medium">Memories Created</div>
+              <div className="text-3xl md:text-4xl font-bold text-red-600 mb-2">5</div>
+              <div className="text-gray-600 font-medium">OFFICES</div>
             </div>
           </div>
         </div>

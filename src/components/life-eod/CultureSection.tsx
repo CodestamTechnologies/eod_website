@@ -33,10 +33,10 @@ export function CultureSection() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
-            Our Culture
+            WE ARE EVENTS OF DISTINCTION
           </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-             At Events of Distinction, we&apos;ve built more than just a workplace – we&apos;ve created India&apos;s most dynamic brand activation hub where young talent thrives, breakthrough ideas flourish, and every team member contributes to award-winning campaigns that set industry standards.
+             We offer end to end experiential marketing solutions using an integrated approach involving: on-ground, events, digital, P.R., print, mobile, outdoor, consumer generated media, word of mouth & so on. We offer duplication free, relevant, scalable & sustainable brand experiences. In short, we are about buzz, experiences, engagement, eye-balls, touch-points, media-multiplication, conversations & above all IDEAS!
           </p>
         </div>
 
@@ -45,7 +45,7 @@ export function CultureSection() {
           <div className="relative">
             <div className="relative h-96 lg:h-[500px] rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="/images/Office_JS.jpg"
+                src="/EOD/ADI00989.JPG"
                 alt="Our office culture and workspace"
                 fill
                 className="object-cover"
@@ -87,7 +87,7 @@ export function CultureSection() {
         <div className="text-center">
           <div className="relative h-64 md:h-80 rounded-lg overflow-hidden shadow-xl">
             <Image
-              src="/images/reception_JS.jpg"
+              src="/EOD/main5.jpeg"
               alt="Our team at work"
               fill
               className="object-cover"

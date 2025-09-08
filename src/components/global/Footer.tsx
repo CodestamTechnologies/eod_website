@@ -132,7 +132,7 @@ export function Footer() {
                     href="mailto:info@jagransolutions.com"
                     className="hover:text-red-100 transition-colors duration-300 text-sm font-medium"
                   >
-                    info@jagransolutions.com
+                    info@eventofdistinction.com
                   </a>
                 </div>
               </div>

@@ -67,19 +67,19 @@ const testimonials = [
   {
     name: "Sarah Johnson",
     role: "Creative Director",
-    image: "/images/352.jpg",
+    image: "/EOD/ADI01022.JPG",
     quote: "EOD has been instrumental in my professional growth. The learning opportunities and supportive environment have helped me advance my career beyond my expectations."
   },
   {
     name: "Michael Chen",
     role: "Project Manager",
-    image: "/images/NPHO3700.JPG",
+    image: "/EOD/main.jpeg",
     quote: "The work-life balance here is exceptional. I can pursue my passion for creativity while maintaining a healthy personal life. It's the best of both worlds."
   },
   {
     name: "Priya Sharma",
     role: "Marketing Specialist",
-    image: "/images/DSC06316.JPG",
+    image: "/EOD/main3.jpeg",
     quote: "What I love most about EOD is the collaborative culture. Every idea is valued, and there's always someone willing to help you succeed."
   }
 ];
@@ -91,31 +91,39 @@ export function BenefitsSection() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
-            Why Choose EOD?
+            WHY PEOPLE TRUST US
           </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            We offer more than just a job – we provide a platform for growth, creativity, and personal fulfillment. 
-            Here&apos;s what makes EOD an exceptional place to build your career.
+            Our track record speaks for itself. With years of experience and hundreds of successful campaigns, we have established ourselves as India's most trusted brand activation agency.
           </p>
         </div>
 
-        {/* Benefits Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-20">
-          {benefits.map((benefit) => {
-            const Icon = benefit.icon;
-            return (
-              <div 
-                key={benefit.title}
-                className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-100 hover:border-red-200"
-              >
-                <div className={`inline-flex p-3 rounded-full ${benefit.color} mb-4`}>
-                  <Icon className="w-6 h-6" />
-                </div>
-                <h3 className="font-bold text-lg text-gray-900 mb-3">{benefit.title}</h3>
-                <p className="text-gray-600 leading-relaxed text-sm">{benefit.description}</p>
-              </div>
-            );
-          })}
+        {/* Stats Grid */}
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 mb-20 text-center">
+          <div className="bg-white p-6 rounded-lg shadow-lg">
+            <div className="text-3xl md:text-4xl font-bold text-red-600 mb-2">500+</div>
+            <div className="text-gray-600 font-medium">PROJECTS</div>
+          </div>
+          <div className="bg-white p-6 rounded-lg shadow-lg">
+            <div className="text-3xl md:text-4xl font-bold text-red-600 mb-2">15+</div>
+            <div className="text-gray-600 font-medium">CLIENTS</div>
+          </div>
+          <div className="bg-white p-6 rounded-lg shadow-lg">
+            <div className="text-3xl md:text-4xl font-bold text-red-600 mb-2">8+</div>
+            <div className="text-gray-600 font-medium">YEARS OF EXPERIENCE</div>
+          </div>
+          <div className="bg-white p-6 rounded-lg shadow-lg">
+            <div className="text-3xl md:text-4xl font-bold text-red-600 mb-2">5</div>
+            <div className="text-gray-600 font-medium">OFFICES</div>
+          </div>
+          <div className="bg-white p-6 rounded-lg shadow-lg md:col-span-2 lg:col-span-1">
+            <div className="text-lg md:text-xl font-bold text-red-600 mb-2">AVAILABLE</div>
+            <div className="text-gray-600 font-medium">PAN INDIA</div>
+          </div>
+          <div className="bg-white p-6 rounded-lg shadow-lg md:col-span-2 lg:col-span-1">
+            <div className="text-3xl md:text-4xl font-bold text-red-600 mb-2">20+</div>
+            <div className="text-gray-600 font-medium">AWARDS</div>
+          </div>
         </div>
 
         {/* Testimonials Section */}

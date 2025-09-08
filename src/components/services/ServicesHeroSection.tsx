@@ -66,7 +66,7 @@ export function ServicesHeroSection() {
           <div className="flex justify-center lg:justify-end relative z-20">
             <div className="relative w-full max-w-md lg:max-w-lg h-96 lg:h-[500px]">
               <Image
-                src="/EOD/main5.jpeg"
+                src="/EOD/ADI00565.JPG"
                 alt="Services Hero Image"
                 fill
                 className="object-cover rounded-lg shadow-2xl"

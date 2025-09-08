@@ -6,23 +6,23 @@ import { Clock, Coffee, Gamepad2, Utensils } from "lucide-react";
 const balanceFeatures = [
   {
     icon: Clock,
-    title: "Flexible Hours",
-    description: "Work-life balance is important to us. We offer flexible working hours to help you manage your personal and professional commitments."
+    title: "1. Brand Activation",
+    description: "We specialize in creating unforgettable brand experiences that bring your vision to life. Our brand activations go beyond traditional marketing, focusing on building genuine connections with your target audience. From innovative product launches and interactive campaigns to engaging live experiences, we ensure your brand leaves a lasting impact."
   },
   {
     icon: Coffee,
-    title: "Break Areas",
-    description: "Comfortable break areas with premium coffee, snacks, and relaxation spaces to recharge during your workday."
+    title: "2. Rural Marketing",
+    description: "India's heart lies in its villages, and we understand how vital it is to connect with rural markets. Our rural marketing strategies are designed to bridge the gap between brands and rural audiences through innovative roadshows, community engagement programs, and local touchpoints."
   },
   {
     icon: Gamepad2,
-    title: "Recreation Zone",
-    description: "Gaming area and recreational facilities to unwind and bond with colleagues during breaks."
+    title: "3. Online/Offline Campaigning",
+    description: "In today's hybrid world, campaigns need to be impactful both online and offline. We design integrated campaigns that deliver maximum visibility across digital platforms and on-ground activities. Whether it's social media promotions, influencer collaborations, roadshows, or mall activations, our campaigns are data-driven, creative, and result-oriented."
   },
   {
     icon: Utensils,
-    title: "Team Meals",
-    description: "Regular team lunches and celebrations to build stronger relationships and create lasting memories."
+    title: "4. Shop/Retail Marketing",
+    description: "Your retail presence is more than just a point of sale—it's your brand's frontline. We help you create immersive in-store experiences that attract, engage, and convert customers. From designing captivating retail displays and in-shop branding to promotional events and shopper engagement activities."
   }
 ];
 
@@ -33,11 +33,10 @@ export function WorkLifeBalanceSection() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
-            Work-Life Balance
+            SERVICES
           </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            We believe that happy employees create exceptional work. That&apos;s why we&apos;ve designed our workplace 
-            to support both your professional growth and personal well-being.
+            We offer comprehensive experiential marketing solutions designed to create memorable brand experiences and drive measurable results across all touchpoints.
           </p>
         </div>
 
@@ -68,7 +67,7 @@ export function WorkLifeBalanceSection() {
             <div className="space-y-4">
               <div className="relative h-48 rounded-lg overflow-hidden shadow-lg">
                 <Image
-                  src="/images/DSC06316.JPG"
+                  src="/EOD/ADI00511.JPG"
                   alt="Team collaboration"
                   fill
                   className="object-cover hover:scale-105 transition-transform duration-300"
@@ -77,7 +76,7 @@ export function WorkLifeBalanceSection() {
               </div>
               <div className="relative h-32 rounded-lg overflow-hidden shadow-lg">
                 <Image
-                  src="/images/NPHO3700.JPG"
+                  src="/EOD/ADI00514.JPG"
                   alt="Office environment"
                   fill
                   className="object-cover hover:scale-105 transition-transform duration-300"
@@ -88,7 +87,7 @@ export function WorkLifeBalanceSection() {
             <div className="space-y-4 pt-8">
               <div className="relative h-32 rounded-lg overflow-hidden shadow-lg">
                 <Image
-                  src="/images/352.jpg"
+                  src="/EOD/ADI00520.JPG"
                   alt="Team activities"
                   fill
                   className="object-cover hover:scale-105 transition-transform duration-300"
@@ -97,7 +96,7 @@ export function WorkLifeBalanceSection() {
               </div>
               <div className="relative h-48 rounded-lg overflow-hidden shadow-lg">
                 <Image
-                  src="/images/NPHO3744.JPG"
+                  src="/EOD/ADI00540.JPG"
                   alt="Work environment"
                   fill
                   className="object-cover hover:scale-105 transition-transform duration-300"
