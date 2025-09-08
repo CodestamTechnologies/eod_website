@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { Calendar, Camera, PartyPopper, Trophy } from "lucide-react";
+import {  Camera, PartyPopper } from "lucide-react";
 
 const activities = [
   {

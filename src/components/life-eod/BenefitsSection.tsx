@@ -1,68 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import { 
-  GraduationCap, 
-  Heart, 
-  DollarSign, 
-  Calendar, 
-  Shield, 
-  Zap,
-  Users,
-  Award
-} from "lucide-react";
-
-const benefits = [
-  {
-    icon: GraduationCap,
-    title: "Learning & Development",
-    description: "Continuous learning opportunities, workshops, certifications, and skill development programs.",
-    color: "bg-blue-100 text-blue-600"
-  },
-  {
-    icon: Heart,
-    title: "Health & Wellness",
-    description: "Comprehensive health insurance, wellness programs, and mental health support.",
-    color: "bg-red-100 text-red-600"
-  },
-  {
-    icon: DollarSign,
-    title: "Competitive Compensation",
-    description: "Market-competitive salaries, performance bonuses, and annual increments.",
-    color: "bg-green-100 text-green-600"
-  },
-  {
-    icon: Calendar,
-    title: "Flexible Time Off",
-    description: "Generous vacation policy, sick leave, and flexible working arrangements.",
-    color: "bg-purple-100 text-purple-600"
-  },
-  {
-    icon: Shield,
-    title: "Job Security",
-    description: "Stable employment with growth opportunities and long-term career planning.",
-    color: "bg-indigo-100 text-indigo-600"
-  },
-  {
-    icon: Zap,
-    title: "Innovation Time",
-    description: "Dedicated time for creative projects and innovation initiatives.",
-    color: "bg-yellow-100 text-yellow-600"
-  },
-  {
-    icon: Users,
-    title: "Team Collaboration",
-    description: "Cross-functional projects and collaborative work environment.",
-    color: "bg-pink-100 text-pink-600"
-  },
-  {
-    icon: Award,
-    title: "Recognition Programs",
-    description: "Employee of the month, achievement awards, and public recognition.",
-    color: "bg-orange-100 text-orange-600"
-  }
-];
-
 const testimonials = [
   {
     name: "Sarah Johnson",
