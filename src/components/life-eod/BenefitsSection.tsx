@@ -94,7 +94,7 @@ export function BenefitsSection() {
             WHY PEOPLE TRUST US
           </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Our track record speaks for itself. With years of experience and hundreds of successful campaigns, we have established ourselves as India's most trusted brand activation agency.
+            Our track record speaks for itself. With years of experience and hundreds of successful campaigns, we have established ourselves as India&apos;s most trusted brand activation agency.
           </p>
         </div>
 
