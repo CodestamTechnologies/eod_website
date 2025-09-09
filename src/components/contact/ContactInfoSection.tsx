@@ -116,24 +116,6 @@ export function ContactInfoSection() {
           </div>
         </div>
 
-        {/* Head Office Section */}
-        <div className="text-center">
-          <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8">Head Office</h3>
-          
-          {/* Google Map */}
-          <div className="w-full h-[500px] md:h-[600px] rounded-lg overflow-hidden shadow-lg">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3662.4567890123456!2d85.3239605!3d23.3440997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4e104aa5b7c9d%3A0x6be5b2b4e9c5d8a7!2sLalpur%2C%20Ranchi%2C%20Jharkhand!5e0!3m2!1sen!2sin!4v1234567890123"
-              width="100%"
-              height="100%"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              title="Head Office Location - Lalpur, Ranchi"
-            />
-          </div>
-        </div>
 
         {/* Contact Form Section */}
         <div className="bg-gray-50 p-12 rounded-lg">

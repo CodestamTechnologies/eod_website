@@ -98,28 +98,7 @@ export function Footer() {
                 </ul>
               </div>
 
-              {/* Follow */}
-              <div>
-                <h4 className="text-lg font-semibold text-white mb-4">
-                  Follow
-                </h4>
-                <ul className="space-y-3">
-                  {footerData.socialMedia.map((social, index) => {
-                    const Icon = social.icon;
-                    return (
-                      <li key={index}>
-                        <a 
-                          href={social.href}
-                          className="flex items-center space-x-3 text-white hover:text-red-100 transition-colors duration-300 text-sm font-medium"
-                        >
-                          <Icon className="w-4 h-4" />
-                          <span>{social.name}</span>
-                        </a>
-                      </li>
-                    );
-                  })}
-                </ul>
-              </div>
+             
 
               {/* Contact Us */}
               <div>

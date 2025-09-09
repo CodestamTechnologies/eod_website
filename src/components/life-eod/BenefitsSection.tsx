@@ -1,5 +1,11 @@
 "use client";
-
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 import Image from "next/image";
 const testimonials = [
   {
@@ -7,6 +13,18 @@ const testimonials = [
     role: "Creative Director",
     image: "/EOD/ADI01022.JPG",
     quote: "EOD has been instrumental in my professional growth. The learning opportunities and supportive environment have helped me advance my career beyond my expectations."
+  },
+  {
+    name: "Michael Chen",
+    role: "Project Manager",
+    image: "/EOD/main.jpeg",
+    quote: "The work-life balance here is exceptional. I can pursue my passion for creativity while maintaining a healthy personal life. It's the best of both worlds."
+  },
+  {
+    name: "Priya Sharma",
+    role: "Marketing Specialist",
+    image: "/EOD/main3.jpeg",
+    quote: "What I love most about EOD is the collaborative culture. Every idea is valued, and there's always someone willing to help you succeed."
   },
   {
     name: "Michael Chen",
@@ -64,40 +82,49 @@ export function BenefitsSection() {
           </div>
         </div>
 
-        {/* Testimonials Section */}
-        <div className="bg-gray-50 rounded-lg p-8 mb-16">
+        <section className="p-8 mb-10">
           <h3 className="text-3xl md:text-4xl font-bold text-gray-900 text-center mb-12">
-            What Our Team Says
+            Testimonials
           </h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {testimonials.map((testimonial) => (
-              <div 
-                key={testimonial.name}
-                className="bg-white p-6 rounded-lg shadow-lg"
-              >
-                <div className="flex items-center mb-4">
-                  <div className="relative w-12 h-12 rounded-full overflow-hidden mr-4">
-                    <Image
-                      src={testimonial.image}
-                      alt={testimonial.name}
-                      fill
-                      className="object-cover"
-                      sizes="48px"
-                    />
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-gray-900">{testimonial.name}</h4>
-                    <p className="text-gray-600 text-sm">{testimonial.role}</p>
-                  </div>
-                </div>
-                <blockquote className="text-gray-700 italic leading-relaxed">
-                  {testimonial.quote}
-                </blockquote>
-              </div>
-            ))}
-          </div>
-        </div>
 
+          <Carousel className="max-w-5xl mx-auto">
+            <CarouselContent>
+              {testimonials.map((testimonial, idx) => (
+                <CarouselItem key={idx} className="md:basis-1/2 lg:basis-1/3 mb-4">
+                  <div className="bg-white p-6 rounded-lg shadow-lg h-full flex flex-col  border border-red-500">
+                    {/* Profile */}
+                    <div className="flex items-center mb-4">
+                      <div className="relative w-12 h-12 rounded-full overflow-hidden mr-4">
+                        <Image
+                          src={testimonial.image}
+                          alt={testimonial.name}
+                          fill
+                          className="object-cover"
+                          sizes="48px"
+                        />
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-gray-900">
+                          {testimonial.name}
+                        </h4>
+                        <p className="text-gray-600 text-sm">{testimonial.role}</p>
+                      </div>
+                    </div>
+
+                    {/* Quote */}
+                    <blockquote className="text-gray-700 italic leading-relaxed">
+                      {testimonial.quote}
+                    </blockquote>
+                  </div>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+
+            {/* Controls */}
+            <CarouselPrevious className="left-0 -translate-x-16 hidden md:flex" />
+            <CarouselNext className="right-0 translate-x-16 hidden md:flex" />
+          </Carousel>
+        </section>
         {/* CTA Section */}
         <div className="text-center bg-gradient-to-r from-red-600 to-red-700 rounded-lg p-12 text-white">
           <h3 className="text-3xl md:text-4xl font-bold mb-4">Ready to Start Your Journey?</h3>
