@@ -1,6 +1,3 @@
-import { Navbar } from "@/components/global/Navbar";
-import { Footer } from "@/components/global/Footer";
-import { SocialSidebar } from "@/components/global/SocialSidebar";
 import { ServicesHeroSection } from "@/components/services/ServicesHeroSection";
 import { ServiceBlock } from "@/components/services/ServiceBlock";
 
@@ -52,8 +49,6 @@ const servicesData = [
 export default function ServicesPage() {
   return (
     <div className="min-h-screen w-full">
-      <Navbar />
-      <SocialSidebar />
       <div className="pt-16">
         <ServicesHeroSection />
         <div className="py-16">
@@ -68,7 +63,6 @@ export default function ServicesPage() {
           ))}
         </div>
       </div>
-      <Footer />
     </div>
   );
 }
