@@ -104,10 +104,10 @@ export function Footer() {
                 <div className="flex items-center space-x-3 text-white mb-2">
                   <Mail className="w-4 h-4 text-white" />
                   <a
-                    href="mailto:info@eventofdistinction.com"
+                    href="mailto:info@eventofdistinction.in"
                     className="hover:text-red-100 transition-colors duration-300 text-sm font-medium"
                   >
-                    info@eventofdistinction.com
+                    info@eventofdistinction.in
                   </a>
                 </div>
 
@@ -115,7 +115,7 @@ export function Footer() {
                 <div className="flex items-center space-x-3 text-white">
                   <Phone className="w-4 h-4 text-white" />
                   <a
-                    href="tel:+911234567890"
+                    href="tel:+918340715376"
                     className="hover:text-red-100 transition-colors duration-300 text-sm font-medium"
                   >
                     +91 8340715376
