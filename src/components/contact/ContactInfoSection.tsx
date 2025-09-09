@@ -105,14 +105,14 @@ export function ContactInfoSection() {
             <span className="text-xl font-semibold">Contact Us</span>
             <span className="text-lg">•</span>
             <Link
-              href="mailto:info@eventofdistinction.com"
+              href="mailto:info@eventofdistinction.in"
               className="text-lg hover:text-red-100 transition-colors duration-300"
             >
-              info@eventofdistinction.com
+              info@eventofdistinction.in
             </Link>
             <span className="text-lg">•</span>
             <Link
-              href="tel:+919876543210" // replace with actual phone number
+              href="tel:+918340715376" 
               className="text-lg hover:text-red-100 transition-colors duration-300"
             >
               +91 8340715376
