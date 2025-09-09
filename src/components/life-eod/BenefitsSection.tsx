@@ -135,9 +135,6 @@ export function BenefitsSection() {
             <button className="bg-white text-red-600 px-8 py-3 rounded-full font-bold text-lg hover:bg-gray-100 transition-colors duration-300 shadow-lg">
               Browse Careers
             </button>
-            <button className="border-2 border-white text-white px-8 py-3 rounded-full font-bold text-lg hover:bg-white hover:text-red-600 transition-colors duration-300">
-              Contact HR
-            </button>
           </div>
         </div>
 

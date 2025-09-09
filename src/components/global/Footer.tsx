@@ -1,28 +1,22 @@
-import { Mail, Instagram, Facebook, Twitter, Linkedin, Youtube } from "lucide-react";
+import { Mail, Phone } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 const footerData = {
   eventsOfDistinction: [
-    "About Us",
-    "Projects", 
-    "Clients",
-    "Life@EOD"
+    { title: "About Us", link: "about" },
+    { title: "Projects", link: "projects" },
+    { title: "Clients", link: "clients" },
+    { title: "Life@EOD", link: "life-eod" }
   ],
   services: [
     "Brand Activation",
     "Rural Marketing",
-    "Online/Offline Campaigning", 
+    "Online/Offline Campaigning",
     "Shop/Retail Marketing",
     "Events / Conferences / Exhibitions",
     "Branding"
   ],
-  socialMedia: [
-    { name: "Instagram", icon: Instagram, href: "#" },
-    { name: "Facebook", icon: Facebook, href: "#" },
-    { name: "Twitter", icon: Twitter, href: "#" },
-    { name: "LinkedIn", icon: Linkedin, href: "#" },
-    { name: "YouTube", icon: Youtube, href: "#" }
-  ]
 };
 
 export function Footer() {
@@ -68,12 +62,12 @@ export function Footer() {
                 <ul className="space-y-3">
                   {footerData.eventsOfDistinction.map((item, index) => (
                     <li key={index}>
-                      <a 
-                        href="#" 
+                      <Link
+                        href={`/${item.link}`}
                         className="text-white hover:text-red-100 transition-colors duration-300 text-sm font-medium"
                       >
-                        {item}
-                      </a>
+                        {item.title}
+                      </Link>
                     </li>
                   ))}
                 </ul>
@@ -87,34 +81,48 @@ export function Footer() {
                 <ul className="space-y-3">
                   {footerData.services.map((service, index) => (
                     <li key={index}>
-                      <a 
-                        href="#" 
+                      <Link
+                        href='#'
                         className="text-white hover:text-red-100 transition-colors duration-300 text-sm font-medium"
                       >
                         {service}
-                      </a>
+                      </Link>
                     </li>
                   ))}
                 </ul>
               </div>
 
-             
+
 
               {/* Contact Us */}
               <div>
                 <h4 className="text-lg font-semibold text-white mb-4">
                   Contact Us
                 </h4>
-                <div className="flex items-center space-x-3 text-white">
+
+                {/* Email */}
+                <div className="flex items-center space-x-3 text-white mb-2">
                   <Mail className="w-4 h-4 text-white" />
-                  <a 
-                    href="mailto:info@jagransolutions.com"
+                  <a
+                    href="mailto:info@eventofdistinction.com"
                     className="hover:text-red-100 transition-colors duration-300 text-sm font-medium"
                   >
                     info@eventofdistinction.com
                   </a>
                 </div>
+
+                {/* Phone */}
+                <div className="flex items-center space-x-3 text-white">
+                  <Phone className="w-4 h-4 text-white" />
+                  <a
+                    href="tel:+911234567890"
+                    className="hover:text-red-100 transition-colors duration-300 text-sm font-medium"
+                  >
+                    +91 8340715376
+                  </a>
+                </div>
               </div>
+
             </div>
           </div>
         </div>

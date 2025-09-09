@@ -12,6 +12,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import Link from "next/link";
 
 const cities = [
   "New Delhi",
@@ -45,7 +46,7 @@ export function ContactInfoSection() {
             <h2 className="text-2xl md:text-3xl font-bold text-red-600">
               Get in Touch
             </h2>
-            
+
             {/* Have Any Project on Mind */}
             <div className="space-y-2">
               <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-black leading-tight">
@@ -55,7 +56,7 @@ export function ContactInfoSection() {
                 Work Together
               </h3>
             </div>
-            
+
             {/* Location Block */}
             <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
               {/* Location Icon and Title */}
@@ -63,12 +64,12 @@ export function ContactInfoSection() {
                 <MapPin className="w-6 h-6 text-red-600" />
                 <h4 className="text-xl font-semibold text-gray-900">Location</h4>
               </div>
-              
+
               {/* Know about more locations */}
               <p className="text-gray-600 mb-4">
                 Know about more locations
               </p>
-              
+
               {/* City Dropdown */}
               <Select>
                 <SelectTrigger className="w-full">
@@ -96,23 +97,26 @@ export function ContactInfoSection() {
             />
           </div>
         </div>
-        
-        {/* Email Section - Horizontal Layout */}
+
+        {/* Email & Phone Section - Horizontal Layout */}
         <div className="bg-red-600 p-8 rounded-lg">
           <div className="flex items-center justify-center gap-4 text-white flex-wrap">
             <Mail className="w-8 h-8 text-white flex-shrink-0" />
-            <span className="text-xl font-semibold">Email Address</span>
+            <span className="text-xl font-semibold">Contact Us</span>
             <span className="text-lg">•</span>
-            <a 
-              href="mailto:info@jagransolutions.com"
+            <Link
+              href="mailto:info@eventofdistinction.com"
               className="text-lg hover:text-red-100 transition-colors duration-300"
             >
               info@eventofdistinction.com
-            </a>
+            </Link>
             <span className="text-lg">•</span>
-            <span className="text-sm text-red-100">
-              Events of Distinction | India&apos;s Youngest Brand Activation Agency | Available Pan India
-            </span>
+            <Link
+              href="tel:+919876543210" // replace with actual phone number
+              className="text-lg hover:text-red-100 transition-colors duration-300"
+            >
+              +91 8340715376
+            </Link>
           </div>
         </div>
 
@@ -199,8 +203,8 @@ export function ContactInfoSection() {
 
             {/* Submit Button */}
             <div className="text-center pt-4">
-              <Button 
-                type="submit" 
+              <Button
+                type="submit"
                 className="bg-red-600 hover:bg-red-700 text-white px-12 py-4 text-lg font-semibold rounded-lg"
               >
                 Send Message

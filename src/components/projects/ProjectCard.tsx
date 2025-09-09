@@ -26,15 +26,7 @@ export function ProjectCard({ name, description, image }: ProjectCardProps) {
       <div className="p-6">
         {/* Project Name with border decoration */}
         <div className="relative mb-3">
-          {/* Background border image */}
-          <div className="absolute -left-4 -top-2 w-32 h-12 z-0">
-            <Image
-              src="/images/border-2.png"
-              alt="Border decoration"
-              fill
-              className="object-contain"
-            />
-          </div>
+          
           <h3 className="relative text-lg md:text-xl font-bold text-red-600 leading-tight z-10 px-2">
             {name}
           </h3>
