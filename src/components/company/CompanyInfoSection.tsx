@@ -9,33 +9,25 @@ export function CompanyInfoSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Side - Image */}
           <div className="relative w-full h-70 lg:h-90">
-                <Image
-                  src="/images/logo.png"
-                  alt="Our Company"
-                  fill
-                  className="object-contain"
-                  sizes="(max-width: 400px) 90vw, 30vw"
-                />
-              </div>
+            <Image
+              src="/images/logo.png"
+              alt="Our Company"
+              fill
+              className="object-contain"
+              sizes="(max-width: 400px) 90vw, 30vw"
+            />
+          </div>
 
           {/* Right Side - Content */}
           <div className="space-y-6">
             {/* Title with background border */}
             <div className="relative mb-6">
-              {/* Background border image */}
-              <div className="absolute -left-8 -top-6 w-48 h-24 z-0">
-                <Image
-                  src="/images/border-2.png"
-                  alt="Border decoration"
-                  fill
-                  className="object-contain"
-                />
-              </div>
+             
               <h2 className="relative text-3xl md:text-4xl lg:text-5xl font-bold text-red-600 leading-tight z-10 px-4 py-2">
                 Our Company
               </h2>
             </div>
-            
+
             {/* Description */}
             <div className="space-y-4">
               <p className="text-lg text-gray-700 leading-relaxed">

@@ -1,6 +1,3 @@
-import { Navbar } from "@/components/global/Navbar";
-import { Footer } from "@/components/global/Footer";
-import { SocialSidebar } from "@/components/global/SocialSidebar";
 import { ProjectsHeroSection } from "@/components/projects/ProjectsHeroSection";
 import { ProjectCard } from "@/components/projects/ProjectCard";
 
@@ -118,8 +115,6 @@ const projectsData = [
 export default function ProjectsPage() {
   return (
     <div className="min-h-screen w-full">
-      <Navbar />
-      <SocialSidebar />
       <div className="pt-16">
         <ProjectsHeroSection />
         
@@ -147,7 +142,6 @@ export default function ProjectsPage() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

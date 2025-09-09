@@ -34,15 +34,7 @@ export function ServiceBlock({ title, description, image, imagePosition }: Servi
             {/* Title with background border */}
             <div className="relative mb-4">
               {/* Background border image */}
-              <div className="absolute -left-8 -top-6 w-48 h-24 z-0">
-                <Image
-                  src="/images/border-2.png"
-                  alt="Border decoration"
-                  fill
-                  className="object-contain opacity-100"
-                  priority
-                />
-              </div>
+              
               <h2 className="relative text-xl md:text-2xl lg:text-3xl font-bold text-red-600 leading-tight z-20 px-4 py-2">
                 {title}
               </h2>

@@ -8,15 +8,7 @@ export function GroupCompaniesSection() {
       <div className="max-w-7xl mx-auto text-center">
         {/* Title with background border */}
         <div className="relative mb-12 inline-block">
-          {/* Background border image */}
-          <div className="absolute -left-8 -top-6 w-48 h-24 z-0">
-            <Image
-              src="/images/border-2.png"
-              alt="Border decoration"
-              fill
-              className="object-contain"
-            />
-          </div>
+          
           <h2 className="relative text-3xl md:text-4xl lg:text-5xl font-bold text-red-600 leading-tight z-10 px-4 py-2">
             Together We Grow
           </h2>

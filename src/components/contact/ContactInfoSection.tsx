@@ -12,6 +12,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import Link from "next/link";
 
 const cities = [
   "New Delhi",
@@ -45,7 +46,7 @@ export function ContactInfoSection() {
             <h2 className="text-2xl md:text-3xl font-bold text-red-600">
               Get in Touch
             </h2>
-            
+
             {/* Have Any Project on Mind */}
             <div className="space-y-2">
               <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-black leading-tight">
@@ -55,7 +56,7 @@ export function ContactInfoSection() {
                 Work Together
               </h3>
             </div>
-            
+
             {/* Location Block */}
             <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
               {/* Location Icon and Title */}
@@ -63,12 +64,12 @@ export function ContactInfoSection() {
                 <MapPin className="w-6 h-6 text-red-600" />
                 <h4 className="text-xl font-semibold text-gray-900">Location</h4>
               </div>
-              
+
               {/* Know about more locations */}
               <p className="text-gray-600 mb-4">
                 Know about more locations
               </p>
-              
+
               {/* City Dropdown */}
               <Select>
                 <SelectTrigger className="w-full">
@@ -96,44 +97,29 @@ export function ContactInfoSection() {
             />
           </div>
         </div>
-        
-        {/* Email Section - Horizontal Layout */}
+
+        {/* Email & Phone Section - Horizontal Layout */}
         <div className="bg-red-600 p-8 rounded-lg">
           <div className="flex items-center justify-center gap-4 text-white flex-wrap">
             <Mail className="w-8 h-8 text-white flex-shrink-0" />
-            <span className="text-xl font-semibold">Email Address</span>
+            <span className="text-xl font-semibold">Contact Us</span>
             <span className="text-lg">•</span>
-            <a 
-              href="mailto:info@jagransolutions.com"
+            <Link
+              href="mailto:info@eventofdistinction.com"
               className="text-lg hover:text-red-100 transition-colors duration-300"
             >
               info@eventofdistinction.com
-            </a>
+            </Link>
             <span className="text-lg">•</span>
-            <span className="text-sm text-red-100">
-              Events of Distinction | India&apos;s Youngest Brand Activation Agency | Available Pan India
-            </span>
+            <Link
+              href="tel:+919876543210" // replace with actual phone number
+              className="text-lg hover:text-red-100 transition-colors duration-300"
+            >
+              +91 8340715376
+            </Link>
           </div>
         </div>
 
-        {/* Head Office Section */}
-        <div className="text-center">
-          <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8">Head Office</h3>
-          
-          {/* Google Map */}
-          <div className="w-full h-[500px] md:h-[600px] rounded-lg overflow-hidden shadow-lg">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3662.4567890123456!2d85.3239605!3d23.3440997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4e104aa5b7c9d%3A0x6be5b2b4e9c5d8a7!2sLalpur%2C%20Ranchi%2C%20Jharkhand!5e0!3m2!1sen!2sin!4v1234567890123"
-              width="100%"
-              height="100%"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              title="Head Office Location - Lalpur, Ranchi"
-            />
-          </div>
-        </div>
 
         {/* Contact Form Section */}
         <div className="bg-gray-50 p-12 rounded-lg">
@@ -217,8 +203,8 @@ export function ContactInfoSection() {
 
             {/* Submit Button */}
             <div className="text-center pt-4">
-              <Button 
-                type="submit" 
+              <Button
+                type="submit"
                 className="bg-red-600 hover:bg-red-700 text-white px-12 py-4 text-lg font-semibold rounded-lg"
               >
                 Send Message
