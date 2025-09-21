@@ -105,17 +105,17 @@ export function ContactInfoSection() {
             <span className="text-xl font-semibold">Contact Us</span>
             <span className="text-lg">•</span>
             <Link
-              href="mailto:info@eventofdistinction.in"
+              href={`mailto:${process.env.NEXT_PUBLIC_EMAIL}`}
               className="text-lg hover:text-red-100 transition-colors duration-300"
             >
-              info@eventofdistinction.in
+              {process.env.NEXT_PUBLIC_EMAIL}
             </Link>
             <span className="text-lg">•</span>
             <Link
-              href="tel:+918340715376" 
+              href={`tel:${process.env.NEXT_PUBLIC_PHONE}`} 
               className="text-lg hover:text-red-100 transition-colors duration-300"
             >
-              +91 8340715376
+              {process.env.NEXT_PUBLIC_PHONE}
             </Link>
           </div>
         </div>

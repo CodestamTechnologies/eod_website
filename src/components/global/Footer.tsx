@@ -100,26 +100,29 @@ export function Footer() {
                   Contact Us
                 </h4>
 
-                {/* Email */}
-                <div className="flex items-center space-x-3 text-white mb-2">
-                  <Mail className="w-4 h-4 text-white" />
-                  <a
-                    href="mailto:info@eventofdistinction.in"
+                <div className="flex justify-center items-center space-x-3 mb-2">
+                  {/* Email */}
+                  <div className=" text-white">
+                    <Mail className="w-4 h-4 text-white" />
+
+                  </div>
+                  <Link
+                    href={`mailto:${process.env.NEXT_PUBLIC_EMAIL}`}
                     className="hover:text-red-100 transition-colors duration-300 text-sm font-medium"
                   >
-                    info@eventofdistinction.in
-                  </a>
+                    {process.env.NEXT_PUBLIC_EMAIL}
+                  </Link>
                 </div>
 
                 {/* Phone */}
                 <div className="flex items-center space-x-3 text-white">
                   <Phone className="w-4 h-4 text-white" />
-                  <a
-                    href="tel:+918340715376"
+                  <Link
+                    href={`tel:${process.env.NEXT_PUBLIC_PHONE}`}
                     className="hover:text-red-100 transition-colors duration-300 text-sm font-medium"
                   >
-                    +91 8340715376
-                  </a>
+                    {process.env.NEXT_PUBLIC_PHONE}
+                  </Link>
                 </div>
               </div>
 
